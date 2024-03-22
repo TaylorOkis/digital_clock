@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(44, 43, 43);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.rectangle {
+    background-color: black;
+    width: 55%;
+    height: 30%;
+    box-shadow: 5px 5px 30px 15px rgba(255, 255, 255, 0.5);
+    transform: translateY(-5px);
+    border-radius: 15px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.date,
+.time {
+    color: white;
+    text-align: center;
+    font-family: system-ui;
+}
+
+.date {
+    font-size: calc(0.75vw + 0.75vh);
+    margin-right: 0px;
+}
+
+.time {
+    font-size: calc(3vw + 3vh);
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
